@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>contatti</title>
+</head>
+<body>
+    <header>
+      <div class="container">
+        <div class="logo"><a href="#">Suore on line</a></div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chisiamo.html">Chi siamo</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </nav>
+        <div class="cta"><a href="#" class="button">Registrati</a></div>
+      </div>
+    </header>
+    <body>
+
+    
+    <h1>Contatta le nostre sorelle</h1>
+
+<form action="">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome" value=""><br><br>
+  <label for="cognome">Cognome:</label><br>
+  <input type="text" id="cognome" name="cognome" value=""><br><br>
+  
+  <label for="mail">Indirizzo mail:</label><br>
+  <input type="text" id="mail" name="mail" value="La tua mail">
+  
+  <br><br>
+
+  <h2>Scegli il tuo peccato da confessare</h2>
+
+  <input type="checkbox" id="accidia" name="accidia" value="accidia">
+  <label for="accidia"> Accidia</label><br>
+  <input type="checkbox" id="lussuria" name="lussuria" value="lussuria">
+  <label for="lussuria"> Lussuria </label><br>
+  <input type="checkbox" id="gola" name="gola" value="gola">
+  <label for="gola"> Gola</label><Br><br>
+    
+
+    <p style="font-family:verdana">Perchè hai commesso questo peccato?</p>
+
+  <textarea name="messaggio" rows="5" cols="40">Mi pento e mi dolgo (forse...)</textarea>
+  <br><br>
+  
+
+  <button id="myButton">Conferma</button>
+
+  <script>
+      
+      const button = document.getElementById('myButton');
+      button.addEventListener('click', function() {
+          
+          alert('Grazie per averci contattato');
+      });
+  </script>
+
+  
+</form> 
+
+    
+</body>
+</html>

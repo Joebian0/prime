@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: normal;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  .cta .button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .cta .button:hover {
+    background-color: #d32f2f;
+  }
+  body {
+    
+    text-align: center;
+    background-color: rgb(233, 255, 182);
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightpink;
+  }
+  .fb {
+    background-color: rgb(188, 188, 241);
+    color: white;
+  }
+  .ig {
+    background-color: tomato;
+    color: white;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px;
+    width: 500px;
+  }
